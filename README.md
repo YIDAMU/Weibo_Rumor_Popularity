@@ -10,7 +10,8 @@ data=pd.read_csv('Weibo_Rumor_Popularity_raw.tsv', sep='\t', lineterminator='\n'
 data=pd.read_csv('Weibo_Rumor_Popularity_clean.csv', lineterminator='\n')
 ```
 To run experiments:
-```python
+```bash
+https://github.com/YIDAMU/Weibo_Rumor_Popularity.git
 cd [this folder]
 python3 xxx.py
 ```
