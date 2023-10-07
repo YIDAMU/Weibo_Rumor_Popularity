@@ -14,3 +14,5 @@ To run experiments:
 cd [this folder]
 python3 xxx.py
 ```
+To extract KG representations:
+We use open source code via: [https://github.com/autoliuweijie/K-BERT]
