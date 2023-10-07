@@ -16,4 +16,4 @@ cd [this folder]
 python3 xxx.py
 ```
 To extract KG representations:
-We use open source code via: [https://github.com/autoliuweijie/K-BERT]
+We employ a knowledge_BERT pipeline via: [https://github.com/autoliuweijie/K-BERT]
