@@ -18,9 +18,10 @@ data=pd.read_csv('Weibo_Rumor_Popularity_clean.csv', lineterminator='\n')
 ```
 To run experiments:
 ```bash
-https://github.com/YIDAMU/Weibo_Rumor_Popularity.git
-cd [this folder]
-python3 xxx.py
+git clone https://github.com/YIDAMU/Weibo_Rumor_Popularity.git
+#extract data
+cd [this_folder]
+CUDA_VISIBLE_DEVICES= "Your_GPU" python3 run_model.py
 ```
 To extract KG representations:
 We employ a knowledge_BERT pipeline via: [https://github.com/autoliuweijie/K-BERT]
