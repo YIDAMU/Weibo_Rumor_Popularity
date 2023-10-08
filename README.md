@@ -16,6 +16,15 @@ data=pd.read_csv('Weibo_Rumor_Popularity_raw.tsv', sep='\t', lineterminator='\n'
 #pre-processed dataset
 data=pd.read_csv('Weibo_Rumor_Popularity_clean.csv', lineterminator='\n')
 ```
+
+To use our BERT_Weibo_Rumor model via Huggingface:
+```python
+import torch
+from transformers import AutoTokenizer, BertForSequenceClassification
+tokenizer = AutoTokenizer.from_pretrained("YidaM4396/BERT_Weibo_Rumor")
+model = BertForSequenceClassification.from_pretrained("YidaM4396/BERT_Weibo_Rumor")
+```
+
 To run experiments:
 ```bash
 git clone https://github.com/YIDAMU/Weibo_Rumor_Popularity.git
