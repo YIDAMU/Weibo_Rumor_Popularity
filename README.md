@@ -1,5 +1,5 @@
 # Weibo_Rumor_Popularity
-Dataset for the paper "Predicting and Analyzing the Popularity of False Rumors in Weibo" Expert Systems with Applications (2023)
+Dataset for the paper "Predicting and Analyzing the Popularity of False Rumors in Weibo" Expert Systems with Applications (2023) (https://doi.org/10.1016/j.eswa.2023.122791)
 
 We conducted experiments on a single Nvidia-A100 (40GB). Details:
 ```text
