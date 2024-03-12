@@ -35,3 +35,16 @@ CUDA_VISIBLE_DEVICES = "Your_GPU" python3 run_model.py
 ```
 # To extract KG representations:
 We employ a knowledge_BERT pipeline via: [https://github.com/autoliuweijie/K-BERT]
+
+# Bibtex:
+```bibtex
+@article{mu2024predicting,
+  title={Predicting and analyzing the popularity of false rumors in Weibo},
+  author={Mu, Yida and Niu, Pu and Bontcheva, Kalina and Aletras, Nikolaos},
+  journal={Expert Systems with Applications},
+  volume={243},
+  pages={122791},
+  year={2024},
+  publisher={Elsevier}
+}
+```
